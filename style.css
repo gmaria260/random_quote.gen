@@ -1,0 +1,49 @@
+body {
+    font-family: courier, monospace;
+    background-color: #f4f4f4;
+    background-image: url("books.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+ 
+   
+  .container {
+    text-align: center;
+    background-color: #e9dac7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+   
+  h1 {
+    color: #333;
+    font-family: Courier, monospace;
+    font-weight: bold;
+  }
+   
+  #quoteDisplay {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #303030;
+  }
+   
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #01301e;
+    font-family: Courier, monospace;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  button:hover {
+    background-color: #245347;
+  }
